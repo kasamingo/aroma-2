@@ -10850,7 +10850,12 @@ footer {
     line-height: 1.625;
     margin-top: 1.830161054172767vw;
 }
-
+.p-2 p{
+    font-family: serif;
+    font-size: 2.5vw;
+    margin-top: 2vw;
+    color: white;
+}
 .cource:hover{
     color: white;
 }
@@ -10995,6 +11000,9 @@ td{
         top: 4vw;
         right: 0vw;
     }
+    .p-2 p {
+        font-size: 34px;
+    }
 }
 
 
@@ -11005,6 +11013,9 @@ td{
         color: #ffffff;
         top: -29vw;
         left: 65vw;
+    }
+    .p-2 p {
+        font-size: 18px;
     }
     .add h2 {
         text-align: center;
