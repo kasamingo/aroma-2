@@ -8257,6 +8257,7 @@ img[src$='.svg'] {
     .p-products__pickup__block {
         width: 85.35871156661786%;
         height: 30.727672vw;
+        
     }
 }
 
@@ -10835,10 +10836,13 @@ footer {
 .p-chart{
     height: 8vw;
 }
+.menu-img{
+    display: none;
+}
 .add h2{
     text-align: center;
     margin-bottom: 7vw;
-    font-size: 3vw;
+    font-size: 4vw;
     font-family: serif;
 }
 .p-products__pickup__block .p-products__pickup__inner__info .info__content2 {
@@ -10866,6 +10870,22 @@ footer {
     margin-top: 4vw;
     margin-bottom: 3vw;
 }
+.planI {
+    position: relative;
+    top: 5vw;
+    right: 0vw;
+}
+.planI2 {
+    position: relative;
+    top: 5vw;
+    right: 0vw;
+}
+.planI3 {
+    position: relative;
+    top: 5vw;
+    right: 0vw;
+}
+
 table {
     margin: auto;
     border: #000;
@@ -10891,6 +10911,22 @@ td{
         position: relative;
         top: -17vh;
     }
+    .planI {
+        position: relative;
+        top: 0vw;
+        right: -17vw;
+    }
+
+    .planI2 {
+        position: relative;
+        top: 0vw;
+        right: -16vw;
+    }
+    .planI3 {
+        position: relative;
+        top: 0vw;
+        right: -15vw;
+    }
 }
 @media screen and (max-width:780px){
     .fa-instagram:before {
@@ -10915,6 +10951,9 @@ td{
         margin-top: 18vw;
         background-color: #03ac9a;
     }
+    .menu-img{
+        display: block;
+    }
     .c-firstView__bg img {
         width: 105%;
         height: 67.72vw;
@@ -10937,6 +10976,25 @@ td{
         left: 58vw;
         font-size: 10vw;
     }
+    .down{
+        content: "/A";
+        white-space: pre;
+    }
+    .planI {
+        position: relative;
+        top: 4vw;
+        right: 0vw;
+    }
+    .planI2 {
+        position: relative;
+        top: 4vw;
+        right: 0vw;
+    }
+    .planI3 {
+        position: relative;
+        top: 4vw;
+        right: 0vw;
+    }
 }
 
 
@@ -10954,7 +11012,10 @@ td{
         font-size: 27px;
         font-family: serif;
     }
-    
+    .down{
+        content: "/A";
+        white-space: pre;
+    }
     .fa-twitter:before {
         content: "\f099";
         color: #ffffff;
