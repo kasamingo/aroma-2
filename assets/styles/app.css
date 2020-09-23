@@ -373,24 +373,23 @@ img[src$='.svg'] {
 }
 
 .l-knowOf {
-    background: #fff
+    background: #000000
 }
 
 .l-article {
-    background: #fff;
+    background: #ffffff;
 }
 
 @media screen and (min-width:769px) {
     .l-article {
         -webkit-box-shadow: 0 41vw 41vw 0 #ee83ff inset;
-        box-shadow: 0 41vw 41vw 0 #ffffff inset;
+        box-shadow: 0 41vw 41vw 0 #000000 inset;
     }
 }
 
 @media screen and (max-width:768px) {
     .l-article {
-        -webkit-box-shadow: 0 76.13vw 76.13vw 0 #e1e2ed inset;
-        box-shadow: 0 76.13vw 76.13vw 0 #ffffff inset;
+        color: #929292;
     }
 }
 
@@ -4183,7 +4182,8 @@ img[src$='.svg'] {
         font-size: 6.93vw;
         letter-spacing: .05em;
         line-height: 1.538461538461539;
-        margin-top: 5.33vw
+        margin-top: 5.33vw;
+        margin-bottom: 6vw;
     }
 }
 
@@ -8227,7 +8227,7 @@ img[src$='.svg'] {
 }
 
 #PRODUCTS_RECOMMENDED {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 @media screen and (min-width:769px) {
@@ -8256,8 +8256,7 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .p-products__pickup__block {
         width: 85.35871156661786%;
-        height: 30.727672vw;
-        
+        height: 41.727672vw;
     }
 }
 
@@ -10773,7 +10772,7 @@ footer {
 }
 
 #wp {
-    background: #ffffff;
+    background: white;
     background-size: 250%;
     -webkit-animation: wave 5s ease infinite;
     animation: wave 5s ease infinite;
@@ -10877,18 +10876,18 @@ footer {
 }
 .planI {
     position: relative;
-    top: 5vw;
-    right: 0vw;
+    top: -6vw;
+    right: -40vw;
 }
 .planI2 {
     position: relative;
-    top: 5vw;
-    right: 0vw;
+    top: -6vw;
+    right: -40vw;
 }
 .planI3 {
     position: relative;
-    top: 5vw;
-    right: 0vw;
+    top: -6vw;
+    right: -40vw;
 }
 
 table {
@@ -10959,8 +10958,13 @@ td{
     .menu-img{
         display: block;
     }
+    .p-products__pickup__block .p-products__pickup__inner__info .info__content2 {
+        font-size: 22px;
+        line-height: 1.625;
+        margin-top: 1.830161054172767vw;
+    }
     .c-firstView__bg img {
-        width: 105%;
+        width: 100%;
         height: 67.72vw;
         position: relative;
         top: 0vh;
@@ -11043,10 +11047,15 @@ td{
     }
     #PRODUCTS_RECOMMENDED {
         padding-top: 31.866666666666667vw;
-        padding-bottom: 15vw;
+        padding-bottom: 3vw;
     }
     #PRODUCTS_RECOMMENDED {
         padding-top: 17.866667vw;
+    }
+    .p-products__pickup__block .p-products__pickup__inner__info .info__content2 {
+        font-size: 16px;
+        line-height: 1.625;
+        margin-top: 1.830161054172767vw;
     }
     .c-question__A {
         font-size: 3.4666vw;
