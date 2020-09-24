@@ -383,7 +383,7 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .l-article {
         -webkit-box-shadow: 0 41vw 41vw 0 #ee83ff inset;
-        box-shadow: 0 41vw 41vw 0 #000000 inset;
+        box-shadow: 0 41vw 41vw 0 #ffffff inset;
     }
 }
 
