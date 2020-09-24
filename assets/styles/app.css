@@ -389,7 +389,7 @@ img[src$='.svg'] {
 
 @media screen and (max-width:768px) {
     .l-article {
-        color: #929292;
+        color: #000000;
     }
 }
 
