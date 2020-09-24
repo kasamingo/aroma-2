@@ -9364,9 +9364,10 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-article__product__cp__desc__name {
-        font-size: 3vw;
+        font-size: 4vw;
+        line-height: 7vw;
         letter-spacing: .05em;
-        margin-top: 1.75vw
+        margin-top: 1.75vw;
     }
 }
 
@@ -9846,6 +9847,7 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .p-application__box__text {
         font-size: 1.4vw;
+        font-family: serif;
         line-height: 1.625;
     }
     
@@ -10018,12 +10020,13 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .p-application__concent__btn {
-        width: 34.40702781844802%;
-        font-size: 1.4vw;
-        padding-top: 1.53vw;
+        width: 43.407028%;
+        height: 7vw;
+        font-size: 1.8vw;
+        padding-top: 2.53vw;
         padding-bottom: 1.53vw;
         padding-left: 2.05vw;
-        margin-top: 2.93vw
+        margin-top: 2.93vw;
     }
 }
 
@@ -10842,16 +10845,18 @@ footer {
     display: none;
 }
 .kousui {
-    width: 6vw;
+    width: 10vw;
     /* margin: auto; */
     /* margin-top: 3vw; */
     position: relative;
-    top: -2.5vw;
-    right: 7vw;
+    top: -4.5vw;
+    right: 5vw;
     float: right;
 }
 .text2 {
-    margin-top: 3vw;
+    margin-top: 1vw;
+    font-size: 1vw;
+    margin-bottom: 2vw;
 }
 .add h2{
     text-align: center;
@@ -10870,7 +10875,7 @@ footer {
     content: "";
     width: 100vw;
     height: 56vh;
-    background: url(../images/cp/mass.jpg) no-repeat top -239px center/cover;
+    background: url(../images/cp/mass.jpg) no-repeat top -646px center/cover;
 }
 
 .mass2 {
@@ -10954,6 +10959,12 @@ td{
         position: relative;
         top: -17vh;
     }
+    .mass {
+        content: "";
+        width: 100vw;
+        height: 29vh;
+        background: url(../images/cp/mass.jpg) no-repeat top -646px center/cover;
+    }
     .c-article__banner_area {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -10970,14 +10981,13 @@ td{
     }
     .p-article__product__cp__desc {
         text-align: center;
-        margin-top: -10vw;
+        margin-top: 4vw;
     }
     .planI {
         position: relative;
         top: -3vw;
         right: -36vw;
     }
-
     .planI2 {
         position: relative;
         top: -3vw;
@@ -10996,6 +11006,12 @@ td{
         color: #ffffff;
         top: -29vw;
         left: 67vw;
+    }
+    .mass {
+        content: "";
+        width: 100vw;
+        height: 41vh;
+        background: url(../images/cp/mass.jpg) no-repeat top -346px center/cover;
     }
     .fa-twitter:before {
         content: "\f099";
@@ -11089,6 +11105,13 @@ td{
         top: -29vw;
         left: 65vw;
     }
+    .mass {
+        content: "";
+        width: 100vw;
+        height: 32vh;
+        background: url(../images/cp/mass.jpg) no-repeat top -179px center/cover;
+    }
+    
     .text2 {
         font-size: 13px;
         line-height: 1.625;
@@ -11115,7 +11138,7 @@ td{
         left: 55vw;
     }
     .p-article__product__cp__desc {
-        margin-top: -31vw;
+        margin-top: 21vw;
     }
     .c-footer_container {
         padding-top: 19.73vw;
