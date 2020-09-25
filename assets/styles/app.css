@@ -10841,6 +10841,13 @@ footer {
 .p-chart{
     height: 8vw;
 }
+.yuriko {
+    border-radius: 1vw;
+    width: 38vw;
+    box-shadow: 6px -13px 6px -1px white;
+    position: relative;
+    right: 5vw;
+}
 .menu-img{
     display: none;
 }
@@ -11033,6 +11040,11 @@ td{
         margin-top: 18vw;
         background-color: #03ac9a;
     }
+    .yuriko {
+        width: 57vw;
+        right: -2vw;
+        top: -5vw;
+    }
     .kousui {
         width: 13vw;
         /* margin: auto; */
@@ -11138,7 +11150,7 @@ td{
         left: 55vw;
     }
     .p-article__product__cp__desc {
-        margin-top: 21vw;
+        margin-top: -21vw;
     }
     .c-footer_container {
         padding-top: 19.73vw;
@@ -11221,6 +11233,11 @@ td{
         margin: auto;
         border: #000;
         width: 95%;
+    }
+    .p-article__product__cp__desc__name__en {
+        font-size: 2.93vw;
+        margin-top: 41vw;
+        letter-spacing: .15em;
     }
     .add h2 {
         text-align: center;
