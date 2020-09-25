@@ -166,7 +166,6 @@ select {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 *::before,
@@ -8234,7 +8233,8 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     #PRODUCTS_RECOMMENDED {
-        padding-top: 7.320644216691069vw
+        padding-top: 7.320644216691069vw;
+        padding-bottom: 15vw;
     }
 }
 
@@ -10853,6 +10853,97 @@ footer {
     position: relative;
     right: 5vw;
 }
+.footer-p {
+    position: relative;
+    margin-top: -8vw;
+    z-index: 2;
+}
+.op{
+    text-align: center;
+    margin-top: 3vw;
+    font-size: 2vw;
+    font-family: serif;
+}
+.plan-img {
+    background: url(../images/cp/wood-2142241_1920.jpg) no-repeat top -146px center/cover;
+    height: 137vw;
+}
+.plan-w {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10vw;
+}
+.plan-content{
+    display: grid;
+    border-radius: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: -1px 9px 12px 3px #989494;
+
+}
+
+.plan-content button:hover {
+    z-index: 3;
+    display: inline-block;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 1.3s;
+    transform: scale(1.05);
+    transition-property: color, background-color;
+    /* ↑ボタンの大きさ */
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 20px;
+    background: #9dfdd8;
+    /* ホバーした時の背景変化 */
+    color: #1A5E98;
+    /* ホバーした時の文字色変化 */
+    box-shadow: inset 1px 1px 14px 1px #4b4b4b;
+    background: url(../images/cp/igor-son-FV_PxCqgtwc-unsplash.jpg) no-repeat top 46px center/cover;
+}
+.plan-content button:active{
+    background-color: white;
+    transition-duration: 0.8s;
+}
+.first{
+    height: 40vw;
+}
+.second{
+    height: 40vw;
+}
+.second:hover{
+    border: none;
+    transition-duration: 1s;
+    transform: translateY(-100px);
+}
+.third{
+    height: 40vw;
+}
+.first h2{
+    padding-top: 2vw;
+    font-size: 1.5vw;
+    font-family: serif;
+}
+.second h2{
+    padding-top: 2vw;
+    font-size: 1.5vw;
+    font-family: serif;
+}
+.third h2{
+    padding-top: 2vw;
+    font-size: 1.5vw;
+    font-family: serif;
+}
+.ko {
+    font-size: 2vw;
+    margin-top: 3vw;
+    font-family: serif;
+}
+
+
+.add p{
+    text-align: center;
+    margin-bottom: 3vw;
+}
 .menu-img{
     display: none;
 }
@@ -10880,6 +10971,7 @@ footer {
     text-align: center;
     margin-bottom: 7vw;
     font-size: 4vw;
+    line-height: 4.7vw;
     font-family: serif;
 }
 
@@ -10910,7 +11002,10 @@ footer {
     height: 56vh;
     background: url(../images/cp/top-mass3.jpg) no-repeat top -325px center/cover;
 }
-
+.border{
+    width: 100%;
+    border: 1px solid black;
+}
 .p-2 p{
     font-family: serif;
     font-size: 2.5vw;
@@ -10969,6 +11064,42 @@ td{
 .map{
     width: 95%;
 }
+
+.opgri{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.op1,.op2{
+    text-align: center;
+    margin-top: 4vw;
+}
+.op1 img{
+    width: 20vw;
+    margin: auto;
+    margin-top: 3vw;
+}
+.op2 img{
+    width: 20vw;
+    margin: auto;
+    margin-top: 3vw;
+}
+.spe p{
+    font-size: 3vw;
+    font-family: kozuka-mincho-pr6n, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #5a7f61;
+    margin-bottom: 4vw;
+    text-align: center;
+    text-shadow: 1px 2px 5px #03ac9a;
+}
+
+
+
+
+
 
 @media screen and (max-width:1030px){
     .c-firstView__bg img {
@@ -11060,7 +11191,7 @@ td{
         padding-bottom: 1.980966vw;
     }
     #PRODUCTS_RECOMMENDED {
-        padding-top: 31.866666666666667vw;
+        padding-top: 14.866667vw;
     }
     .c-footer_container {
         padding-top: 19.73vw;
@@ -11150,6 +11281,64 @@ td{
     .one-mess {
         font-size: 3.47vw;
         line-height: 4.5vw;
+    }
+    .add h2 {
+        text-align: center;
+        margin-bottom: 7vw;
+        font-size: 45px;
+        line-height: 8.7vw;
+        font-family: serif;
+    }
+    .plan-content {
+        display: grid;
+        height: 180vw;
+        border-radius: 20px;
+        grid-template-columns: 1fr;
+        gap: 3vw;
+        box-shadow: -1px 9px 12px 3px #989494;
+    }
+    .plan-img {
+        height: 324vw;
+    }
+    .add p {
+        font-size: 22px;
+    }
+    .plan-w {
+        width: 90%;
+    }
+    .first h2 {
+        font-size: 39px;
+    }
+    .second h2{
+        font-size: 39px;
+    }
+    .third h2{
+        font-size: 39px;
+    }
+    .ko {
+        font-size: 33px;
+    }
+    .first{
+        height: 50vw;
+    }
+    .second{
+        height: 50vw;
+    }
+    .third {
+        height: 57vw;
+    }
+    .footer-p {
+        margin-top: -42vw;
+    }
+    .spe p {
+        font-size: 36px;
+    }
+    .op {
+        margin-top: 7vw;
+        font-size: 30px;
+    }
+    .opgri {
+        width: 91%;
     }
 }
 
@@ -11303,8 +11492,73 @@ td{
         text-align: center;
         margin-bottom: 7vw;
         font-size: 27px;
-        margin-top: 15vw;
+        padding-top: 12vw;
+        margin-top: 0vw;
         font-family: serif;
+    }
+    .add p {
+        font-size: 18px;
+        margin-bottom: 8vw;
+    }
+    .first{
+        height: 90vw;
+    }
+    .second{
+        height: 90vw;
+    }
+    .second{
+        height: 90vw;
+    }
+    .third{
+        height: 90vw;
+    }
+    .first h2 {
+        font-size: 25px;
+    }
+    .second h2 {
+        font-size: 25px;
+    }
+    .ko {
+        font-size: 24px;
+    }
+    .spe p {
+        font-size: 18px;
+        margin-bottom: 11vw;
+        margin-top: 5vw;
+    }
+    .third h2 {
+        font-size: 25px;
+    }
+    .plan-img {
+        height: 550vw;
+    }
+    .op {
+        font-size: 25px;
+    }
+    .opgri {
+        width: 90%;
+        display: block;
+    }
+    .op1 img {
+        width: 37vw;
+        margin-top: 7vw;
+    }
+    .op2 img {
+        width: 37vw;
+        margin-top: 8vw;
+    }
+    .op1 p{
+        text-align: left;
+        font-family: serif;
+        font-size: 18px;
+    }
+    .op2 p{
+        text-align: left;
+        font-family: serif;
+        font-size: 18px;
+    }
+    .plan-content {
+        height: 281vw;
     }
     .c-firstView__page_ttl+.c-firstView__page_hdg__desc, .c-firstView__page_ttl+.c-firstView__page_hdg {
         margin-top: 2vw;
