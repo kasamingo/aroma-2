@@ -10865,6 +10865,12 @@ footer {
     right: 5vw;
     float: right;
 }
+.one-mess {
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    line-height: 3vw;
+    font-family: serif;
+}
 .text2 {
     margin-top: 1vw;
     font-size: 1vw;
@@ -11127,6 +11133,24 @@ td{
     .p-2 p {
         font-size: 34px;
     }
+    .p-products__pickup__block .p-products__pickup__inner__info .info__desc {
+        font-size: 6vw;
+    }
+    .p-products__pickup__block .p-products__pickup__inner__info .info__content2 {
+        font-size: 26px;
+    }
+    .text2 {
+        margin-top: 1vw;
+        font-size: 2.4vw;
+        margin-bottom: 1vw;
+    }
+    .p-application__box__text {
+        font-family: serif;
+    }
+    .one-mess {
+        font-size: 3.47vw;
+        line-height: 4.5vw;
+    }
 }
 
 
@@ -11218,7 +11242,7 @@ td{
         width: 84vw;
         margin-top: 11.66vw;
         margin-right: auto;
-        padding-bottom: 20.66vw;
+        padding-bottom: 5.66vw;
         margin-left: auto;
     }
     .p-products__pickup__block .p-products__pickup__inner__info .info__label {
@@ -11248,7 +11272,11 @@ td{
         font-family: serif;
     }
     .p-application__box__text {
-        font-size: 17px;
+        font-size: 16px;
+    }
+    .one-mess {
+        font-size: 16px;
+        line-height: 6.5vw;
     }
     .c-question__A {
         font-size: 3.4666vw;
