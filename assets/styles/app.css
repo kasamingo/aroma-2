@@ -4169,10 +4169,10 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .c-article__product__ttl {
-        font-size: 3vw;
+        font-size: 3.7vw;
         letter-spacing: .05em;
         line-height: 1.428571428571429;
-        margin-top: 1.53vw
+        margin-top: 1.53vw;
     }
 }
 
@@ -10846,6 +10846,13 @@ footer {
 .p-chart{
     height: 8vw;
 }
+.l-article2 {
+    background: url(../images/cp/wood-2142241_1920.jpg) no-repeat top -146px center/cover;
+    height: 83vw;
+}
+.footer-in {
+    margin-top: -13vw;
+}
 .yuriko {
     border-radius: 1vw;
     width: 38vw;
@@ -11050,12 +11057,14 @@ footer {
 table {
     margin: auto;
     border: #000;
-    box-shadow: 6px -6px 10px 0px #285f59;
+    box-shadow: 0px 10px 14px -4px #000000;
     font-weight: bold;
     font-family: serif;
 }
-td{
+td {
     padding: 3vw 9vw;
+    
+    border: 1px solid #000000;
 }
 .map-w{
     text-align: center;
@@ -11132,6 +11141,13 @@ td{
         text-align: center;
         margin-top: 4vw;
     }
+    .l-article2 {
+        background: url(../images/cp/wood-2142241_1920.jpg) no-repeat top -146px center/cover;
+        height: 85vw;
+    }
+    .footer-in {
+        margin-top: -15vw;
+    }
     .planI {
         position: relative;
         top: -3vw;
@@ -11155,6 +11171,13 @@ td{
         color: #ffffff;
         top: -29vw;
         left: 67vw;
+    }
+    .l-article2 {
+        background: url(../images/cp/wood-2142241_1920.jpg) no-repeat top -257px center/cover;
+        height: 180vw;
+    }
+    .footer-in {
+        margin-top: -52vw;
     }
     .p-products__lineup__container .c-product__object__img .c-product__object__img__inner__img {
         width: 87%;
@@ -11202,6 +11225,11 @@ td{
         width: 57vw;
         right: -2vw;
         top: -5vw;
+    }
+    td {
+        padding: 6vw 9vw;
+        font-size: 21px;
+        border: 1px solid #000000;
     }
     .kousui {
         width: 13vw;
@@ -11351,6 +11379,9 @@ td{
         top: -29vw;
         left: 65vw;
     }
+    .c-article__product__ttl {
+        font-size: 32px;
+    }
     .c-product-description__catchPhrase {
         margin-bottom: 6vw;
         margin-top: 9vw;
@@ -11360,6 +11391,10 @@ td{
         width: 100vw;
         height: 32vh;
         background: url(../images/cp/mass.jpg) no-repeat top -179px center/cover;
+    }
+    .l-article2 {
+        background: url(../images/cp/wood-2142241_1920.jpg) no-repeat top -47px center/cover;
+        height: 247vw;
     }
     .yuriko {
         width: 57vw;
@@ -11421,7 +11456,8 @@ td{
         right: 12vw;
     }
     td {
-        padding: 6vw 2vw;
+        padding: 9vw 2vw;
+        font-size: 15px;
     }
     .p-products__pickup__block .p-products__pickup__inner__img {
         width: 100%;
