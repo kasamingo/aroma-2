@@ -10885,7 +10885,7 @@ footer {
 .yuriko {
     border-radius: 1vw;
     width: 38vw;
-    box-shadow: 6px -13px 6px -1px white;
+    box-shadow: 0px 11px 18px -1px #1b1b1b;
     position: relative;
     right: 5vw;
 }
@@ -10901,7 +10901,7 @@ footer {
     font-family: serif;
 }
 .plan-img {
-    background: url(../images/cp/wood-2142241_1920.jpg) no-repeat top -146px center/cover;
+    background: url("../images/cp/nordwood-themes-KcsKWw77Ovw-unsplash.jpg") no-repeat top -146px center/cover;
     height: 137vw;
 }
 .plan-w {
@@ -11123,11 +11123,12 @@ td {
     margin: auto;
     margin-top: 3vw;
 }
-.spe p{
+.spe p {
     font-size: 3vw;
     font-family: kozuka-mincho-pr6n, serif;
     font-weight: 700;
     font-style: normal;
+    line-height: 5vw;
     color: #5a7f61;
     margin-bottom: 4vw;
     text-align: center;
@@ -11427,6 +11428,9 @@ td {
     .c-article__product__ttl {
         font-size: 32px;
     }
+    .ttl2{
+        font-size: 27px;
+    }
     .c-product-description__catchPhrase {
         margin-bottom: 6vw;
         margin-top: 9vw;
@@ -11559,6 +11563,9 @@ td {
         font-size: 16px;
         line-height: 6.5vw;
     }
+    .p-products__lineup__container .c-product__object__btn {
+        margin-top: 11vw;
+    }
     .c-question__A {
         font-size: 3.4666vw;
         line-height: 1.807692307692308;
@@ -11634,6 +11641,7 @@ td {
     .op1 img {
         width: 37vw;
         margin-top: 7vw;
+        margin-bottom: 12vw;
     }
     .op2 img {
         width: 37vw;
@@ -11651,6 +11659,9 @@ td {
     }
     .plan-content {
         height: 281vw;
+    }
+    .p-products__pickup__block .p-products__pickup__inner__info {
+        margin-top: 8.666667vw;
     }
     .c-firstView__page_ttl+.c-firstView__page_hdg__desc, .c-firstView__page_ttl+.c-firstView__page_hdg {
         margin-top: 2vw;
