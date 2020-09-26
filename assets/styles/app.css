@@ -1578,7 +1578,7 @@ img[src$='.svg'] {
     }
     .c-firstView__bg img {
         width: 105%;
-        height: 67.72vw;
+        height: 54.72vw;
         position: relative;
         top: -13vh;
     }
@@ -10853,6 +10853,35 @@ footer {
 .footer-in {
     margin-top: -13vw;
 }
+.pre{
+    margin-top: 7vw;
+    text-align: center;
+}
+.pre p{
+    font-size: 2.4vw;
+    font-family: serif;
+    margin-bottom: 3vw;
+}
+.preBtn {
+    display: block;
+    background: -webkit-gradient(linear, left top, right top, from(#221551), color-stop(#402e6d), color-stop(#48309c), color-stop(#402e6d), to(#221551));
+    background: linear-gradient(90deg, #53d2c6, #ebec8a, #00ac9a, #00ac9a, #00ac9a);
+    height: 5vw;
+    width: 20vw;
+    padding-top: 1.8vw;
+    margin: auto;
+    color: #056359;
+    text-decoration: none;
+    -webkit-box-shadow: 1vw 1vw 1.46vw 0 rgba(80, 61, 140, 0.35);
+    box-shadow: 1vw 1vw 1.46vw 0 rgba(80, 61, 140, 0.35);
+    -webkit-transition: .5s all cubic-bezier(.17, .67, .63, .96);
+    transition: .5s all cubic-bezier(.17, .67, .63, .96);
+    background-size: 300% auto !important;
+}
+
+
+
+
 .yuriko {
     border-radius: 1vw;
     width: 38vw;
@@ -11172,6 +11201,22 @@ td {
         top: -29vw;
         left: 67vw;
     }
+    .pre p {
+        font-size: 29px;
+    }
+    .preBtn {
+        height: 7vw;
+        width: 33vw;
+        padding-top: 2.3vw;
+        font-size: 20px;
+    }
+    a {
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
     .l-article2 {
         background: url(../images/cp/wood-2142241_1920.jpg) no-repeat top -257px center/cover;
         height: 180vw;
@@ -11391,6 +11436,17 @@ td {
         width: 100vw;
         height: 32vh;
         background: url(../images/cp/mass.jpg) no-repeat top -179px center/cover;
+    }
+    .pre p {
+        font-size: 15px;
+        margin-bottom: 8vw;
+    }
+    .preBtn {
+        height: 13vw;
+        /* margin-top: 3vw; */
+        width: 58vw;
+        padding-top: 4.3vw;
+        font-size: 14px;
     }
     .l-article2 {
         background: url(../images/cp/wood-2142241_1920.jpg) no-repeat top -47px center/cover;
