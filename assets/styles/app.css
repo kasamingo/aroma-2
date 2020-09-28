@@ -254,7 +254,7 @@ button {
 }
 
 body {
-    color: white;
+    color: black;
 }
 
 body>img {
@@ -10843,8 +10843,88 @@ footer {
 
 
 /*-------------------------------------------------------------サッカー後に追加したCSS*/
+.flow-w{
+    margin-bottom: 10vw;
+}
+.flow1{
+    height: 20vw;
+    padding: 2.5vw;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 3vw;
+    background-color: silver;
+    BOX-SHADOW: 6px 10px 11px -1px #232323;
+}
+.flow2{
+    height: 20vw;
+    width: 70%;
+    padding: 2.5vw;
+    margin: auto;
+    margin-bottom: 3vw;
+    BOX-SHADOW: 6px 10px 11px -1px #232323;
+    background-color: silver;
+}
+.flow3{
+    height: 20vw;
+    width: 70%;
+    padding: 2.5vw;
+    margin: auto;
+    margin-bottom: 3vw;
+    background-color: silver;
+    BOX-SHADOW: 6px 10px 11px -1px #232323;
+}
+.flow4{
+    height: 20vw;
+    width: 70%;
+    padding: 2.5vw;
+    margin: auto;
+    margin-bottom: 3vw;
+    background-color: silver;
+    BOX-SHADOW: 6px 10px 11px -1px #232323;
+}
+.flow5{
+    height: 20vw;
+    width: 70%;
+    padding: 2.5vw;
+    margin: auto;
+    margin-bottom: 3vw;
+    background-color: silver;
+    BOX-SHADOW: 6px 10px 11px -1px #232323;
+}
+.flow6{
+    height: 20vw;
+    width: 70%;
+    padding: 2.5vw;
+    margin: auto;
+    margin-bottom: 3vw;
+    background-color: silver;
+    BOX-SHADOW: 6px 10px 11px -1px #232323;
+}
+.flow7{
+    height: 20vw;
+    width: 70%;
+    padding: 2.5vw;
+    margin: auto;
+    margin-bottom: 3vw;
+    background-color: silver;
+    BOX-SHADOW: 6px 10px 11px -1px #232323;
+}
+.next{
+    text-align: center;
+    font-family: serif;
+    margin-top: 7vw;
+    font-size: 2vw;
+}
+
+
+
+
 .p-chart{
     height: 8vw;
+}
+.black{
+    color: black;
+    font-family: serif;
 }
 .c-firstView__container{
     color: black;
@@ -10903,46 +10983,7 @@ footer {
     font-size: 2vw;
     font-family: serif;
 }
-.plan-img {
-    background: url("../images/cp/nordwood-themes-KcsKWw77Ovw-unsplash.jpg") no-repeat top -146px center/cover;
-    height: 137vw;
-}
-.plan-w {
-    width: 70%;
-    text-align: center;
-    margin: auto;
-    padding-bottom: 10vw;
-}
-.plan-content{
-    display: grid;
-    border-radius: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    box-shadow: -1px 9px 12px 3px #989494;
 
-}
-
-.plan-content button:hover {
-    z-index: 3;
-    display: inline-block;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    transition-duration: 1.3s;
-    transform: scale(1.05);
-    transition-property: color, background-color;
-    /* ↑ボタンの大きさ */
-    cursor: pointer;
-    opacity: 0.8;
-    border-radius: 20px;
-    background: #9dfdd8;
-    /* ホバーした時の背景変化 */
-    color: #1A5E98;
-    /* ホバーした時の文字色変化 */
-    box-shadow: inset 1px 1px 14px 1px #4b4b4b;
-    background: url(../images/cp/igor-son-FV_PxCqgtwc-unsplash.jpg) no-repeat top 46px center/cover;
-}
-.plan-content button:active{
-    background-color: white;
-    transition-duration: 0.8s;
-}
 .first{
     height: 40vw;
 }
@@ -11070,21 +11111,6 @@ footer {
     margin-top: 4vw;
     margin-bottom: 3vw;
 }
-.planI {
-    position: relative;
-    top: -6vw;
-    right: -40vw;
-}
-.planI2 {
-    position: relative;
-    top: -6vw;
-    right: -40vw;
-}
-.planI3 {
-    position: relative;
-    top: -6vw;
-    right: -40vw;
-}
 
 table {
     margin: auto;
@@ -11187,21 +11213,6 @@ td {
     }
     .footer-in {
         margin-top: -15vw;
-    }
-    .planI {
-        position: relative;
-        top: -3vw;
-        right: -36vw;
-    }
-    .planI2 {
-        position: relative;
-        top: -3vw;
-        right: -36vw;
-    }
-    .planI3 {
-        position: relative;
-        top: -3vw;
-        right: -36vw;
     }
 }
 @media screen and (max-width:780px){
@@ -11333,21 +11344,6 @@ td {
         content: "/A";
         white-space: pre;
     }
-    .planI {
-        position: relative;
-        top: 4vw;
-        right: 0vw;
-    }
-    .planI2 {
-        position: relative;
-        top: 4vw;
-        right: 0vw;
-    }
-    .planI3 {
-        position: relative;
-        top: 4vw;
-        right: 0vw;
-    }
     .p-2 p {
         font-size: 34px;
     }
@@ -11376,22 +11372,8 @@ td {
         line-height: 8.7vw;
         font-family: serif;
     }
-    .plan-content {
-        display: grid;
-        height: 180vw;
-        border-radius: 20px;
-        grid-template-columns: 1fr;
-        gap: 3vw;
-        box-shadow: -1px 9px 12px 3px #989494;
-    }
-    .plan-img {
-        height: 324vw;
-    }
     .add p {
         font-size: 22px;
-    }
-    .plan-w {
-        width: 90%;
     }
     .first h2 {
         font-size: 39px;
@@ -11659,9 +11641,6 @@ td {
     .third h2 {
         font-size: 25px;
     }
-    .plan-img {
-        height: 550vw;
-    }
     .op {
         font-size: 25px;
     }
@@ -11687,9 +11666,6 @@ td {
         text-align: left;
         font-family: serif;
         font-size: 18px;
-    }
-    .plan-content {
-        height: 281vw;
     }
     .p-products__pickup__block .p-products__pickup__inner__info {
         margin-top: 8.666667vw;
