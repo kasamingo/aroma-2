@@ -1631,7 +1631,7 @@ img[src$='.svg'] {
 }
 
 .c-firstView__page_ttl.thema-white {
-    color: #fff
+    color: #000
 }
 
 @media screen and (min-width:769px) {
@@ -10846,6 +10846,9 @@ footer {
 .p-chart{
     height: 8vw;
 }
+.c-firstView__container{
+    color: black;
+}
 .l-article2 {
     background: url(../images/cp/wood-2142241_1920.jpg) no-repeat top -146px center/cover;
     height: 83vw;
@@ -11133,9 +11136,16 @@ td {
     margin-bottom: 4vw;
     text-align: center;
     text-shadow: 1px 2px 5px #03ac9a;
-}
-
-
+    }
+    .c-firstView__page_ttl{
+        color: black;
+    }
+    .c-firstView__page_hdg{
+        color: black;
+    }
+    .p-2 p{
+        color: black;
+    }
 
 
 
@@ -11201,6 +11211,9 @@ td {
         color: #ffffff;
         top: -29vw;
         left: 67vw;
+    }
+    .c-firstView__page_ttl.thema-white {
+        color: #fff
     }
     .pre p {
         font-size: 29px;
