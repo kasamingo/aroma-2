@@ -10848,6 +10848,21 @@ footer {
 .flow-w{
     margin-bottom: 10vw;
 }
+.option-w{
+    text-align: center;
+}
+.op-txt{
+    margin-top: -3vw;
+}
+.op-top {
+    font-family: serif;
+    margin-top: 4vw;
+    font-size: 1.8vw;
+}
+.direct {
+    width: 10vw;
+    margin: auto;
+}
 .source {
     margin-top: 7vw;
     margin-bottom: 1vw;
@@ -10906,18 +10921,23 @@ footer {
 .flowTop {
     font-size: 2.7vw;
     font-family: serif;
+    padding-left: 1vw;
+    border-bottom: 2px solid #da934b;
+    box-shadow: 2px 4px 4px black;
     margin-bottom: 2vw;
+    padding-bottom: 1vw;
 }
-.flow-p{
+.flow-p {
     font-size: 1.5vw;
     font-family: serif;
-    margin-left: 1vw;
+
+    text-align: center;
 }
-.plan-img{
-    background: url("../images/commercial/kupono-kuwamura-LzgK6IMoSZM-unsplash.jpg");
+.plan-img {
+    background: url(../images/commercial/kupono-kuwamura-LzgK6IMoSZM-unsplash.jpg);
 }
-.flow1{
-    height: 20vw;
+.flow1 {
+    height: 13vw;
     padding: 2.5vw;
     width: 70%;
     margin: auto;
@@ -10927,7 +10947,7 @@ footer {
 }
 
 .flow2{
-    height: 20vw;
+    height: 13vw;
     width: 70%;
     padding: 2.5vw;
     margin: auto;
@@ -10937,7 +10957,7 @@ footer {
     background: linear-gradient(25deg, #0affd2, #ffffff);
 }
 .flow3{
-    height: 20vw;
+    height: 13vw;
     width: 70%;
     padding: 2.5vw;
     margin: auto;
@@ -10947,7 +10967,7 @@ footer {
     background: linear-gradient(25deg, #0affd2, #ffffff);
 }
 .flow4{
-    height: 20vw;
+    height: 13vw;
     width: 70%;
     padding: 2.5vw;
     margin: auto;
@@ -10957,17 +10977,7 @@ footer {
     background: linear-gradient(25deg, #0affd2, #ffffff);
 }
 .flow5{
-    height: 20vw;
-    width: 70%;
-    padding: 2.5vw;
-    margin: auto;
-    margin-bottom: 3vw;
-    background-color: silver;
-    BOX-SHADOW: 6px 10px 11px -1px #232323;
-    background: linear-gradient(25deg, #0affd2, #ffffff);
-}
-.flow6{
-    height: 20vw;
+    height: 13vw;
     width: 70%;
     padding: 2.5vw;
     margin: auto;
@@ -10977,7 +10987,7 @@ footer {
     background: linear-gradient(25deg, #0affd2, #ffffff);
 }
 .flow7{
-    height: 20vw;
+    height: 13vw;
     width: 70%;
     padding: 2.5vw;
     margin: auto;
@@ -10989,8 +10999,8 @@ footer {
 .next{
     text-align: center;
     font-family: serif;
-    margin-top: 7vw;
-    font-size: 2vw;
+    margin-top: 3vw;
+    font-size: 1.7vw;
 }
 
 
@@ -11125,11 +11135,16 @@ footer {
     margin-bottom: 2vw;
 }
 .add h2{
+    font-size: 3vw;
+    font-family: kozuka-mincho-pr6n, serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 5vw;
+    line-height: 5vw;
+    color: #5a7f61;
+    margin-bottom: 4vw;
     text-align: center;
-    margin-bottom: 7vw;
-    font-size: 4vw;
-    line-height: 4.7vw;
-    font-family: serif;
+    text-shadow: 1px 2px 5px #03ac9a;
 }
 
 .p-products__pickup__block .p-products__pickup__inner__info .info__content2 {
@@ -11234,12 +11249,13 @@ td {
     font-family: kozuka-mincho-pr6n, serif;
     font-weight: 700;
     font-style: normal;
+    margin-top: 7vw;
     line-height: 5vw;
     color: #5a7f61;
     margin-bottom: 4vw;
     text-align: center;
     text-shadow: 1px 2px 5px #03ac9a;
-    }
+}
     .c-firstView__page_ttl{
         color: black;
     }
@@ -11546,6 +11562,12 @@ td {
     .c-question__A{
         color: black;
     }
+    .flow-p {
+        font-size: 15px;
+    }
+    .plan-img {
+        height: 273vw;
+    }
 }
 
 
@@ -11846,6 +11868,72 @@ td {
     }
     sp{
         white-space: pre-wrap;
+    }
+    .flow1 {
+        height: 35vw;
+        padding: 2.5vw;
+        width: 90%;
+    }
+    .flow2 {
+        height: 35vw;
+        padding: 2.5vw;
+        width: 90%;
+    }
+    .flow3 {
+        height: 35vw;
+        padding: 2.5vw;
+        width: 90%;
+    }
+    .flow4 {
+        height: 35vw;
+        padding: 2.5vw;
+        width: 90%;
+    }
+    .flow5 {
+        height: 35vw;
+        padding: 2.5vw;
+        width: 90%;
+    }
+    .flow6 {
+        height: 35vw;
+        padding: 2.5vw;
+        width: 90%;
+    }
+    .flow7 {
+        height: 35vw;
+        padding: 2.5vw;
+        width: 90%;
+    }
+    .direct {
+        width: 17vw;
+    }
+    .flowTop {
+        font-size: 16px;
+        padding-bottom: 3vw;
+        padding-top: 3vw;
+    }
+    .flow-p {
+        font-size: 14px;
+        margin-top: 8vw;
+    }
+    .plan-img {
+        height: 453vw;
+    }
+    .next {
+        text-align: center;
+        font-family: serif;
+        margin-top: 5vw;
+        font-size: 14px;
+    }
+    .op-top {
+        font-size: 15px;
+        margin-top: 4vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        font-family: serif;
+    }
+    spa{
+        white-space: pre;
     }
     
 }
