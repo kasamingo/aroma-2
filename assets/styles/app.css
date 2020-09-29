@@ -10848,33 +10848,59 @@ footer {
 .flow-w{
     margin-bottom: 10vw;
 }
-.source{
+.source {
     margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
+    font-size: 2.5vw;
+    font-family: serif;
+}
+.heav {
+    padding-left: 1vw;
+    font-size: 1.4vw;
+    font-family: serif;
+}
+.heav-text {
+    text-align: center;
+    font-family: serif;
+    margin-bottom: 6vw;
+    margin-top: 3vw;
 }
 .aile{
     margin-bottom: 3vw;
+    line-height: 3vw;
 }
 .one{
     font-family: kozuka-mincho-pr6n, serif;
     font-weight: 700;
+    margin-bottom: 1vw;
     font-style: normal;
     color: #5a7f61;
     text-shadow: 1px 2px 5px #03ac9a;
 }
 .two{
+    padding-bottom: 1vw;
     margin-bottom: 3vw;
+    font-family: serif;
+    border-bottom: 1px solid black;
 }
 .store-info {
     font-size: 2.7vw;
     font-family: serif;
-    border-left: 9px solid #03ac9a;
-    border-bottom: 10px solid black;
-    width: 13vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    border-left: 11px solid #03ac9a;
+    border-bottom: 10px solid #000000;
+    width: 20vw;
+    box-shadow: 5px 5px 16px -2px dimgrey;
+}
+.bold {
+    font-size: 1.7vw;
+    font-weight: bold;
 }
 .store{
     margin-top: 4vw;
-    margin-left: 10vw;
+    margin-left: 14vw;
     margin-right: 10vw;
 }
 .flowTop {
@@ -11234,6 +11260,12 @@ td {
         position: relative;
         top: -17vh;
     }
+    .store-info {
+        margin-bottom: 4vw;
+    }
+    .heav {
+        font-size: 18px;
+    }
     .mass {
         content: "";
         width: 100vw;
@@ -11274,12 +11306,48 @@ td {
         top: -29vw;
         left: 67vw;
     }
+    .store-info {
+        font-size: 36px;
+        margin-top: 5vw;
+        margin-bottom: 9vw;
+        width: 29vw;
+    }
+    .black {
+        margin-bottom: 9vw;
+        font-size: 22px;
+    }
+    .one {
+        font-size: 20px;
+        margin-bottom: 3vw;
+    }
+    .two {
+        font-size: 18px;
+    }
+    .source {
+        font-size: 29px;
+    }
+    .l-commercial .c-article__ttl {
+        font-size: 45px;
+        line-height: 1.346153846153846;
+    }
+    .heav {
+        font-size: 19px;
+        margin-top: 3vw;
+    }
+    .bold {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .store {
+        margin-left: 8vw;
+    }
     .c-firstView__page_ttl.thema-white {
         color: #fff
     }
     .pre p {
-        font-size: 29px;
+        font-size: 24px;
     }
+    
     .preBtn {
         height: 7vw;
         width: 33vw;
@@ -11489,6 +11557,10 @@ td {
         top: -29vw;
         left: 65vw;
     }
+    .l-commercial .c-article__ttl {
+        font-size: 26px;
+        line-height: 1.346153846153846;
+    }
     .c-article__product__ttl {
         font-size: 32px;
     }
@@ -11506,8 +11578,52 @@ td {
         background: url(../images/cp/mass.jpg) no-repeat top -179px center/cover;
     }
     .pre p {
-        font-size: 15px;
+        font-size: 16px;
         margin-bottom: 8vw;
+    }
+    .black {
+        margin-bottom: 9vw;
+        font-size: 18px;
+    }
+    .store-info {
+        font-size: 31px;
+        margin-top: 20vw;
+        margin-bottom: 16vw;
+        width: 52vw;
+    }
+    .heav {
+        font-size: 16px;
+        margin-top: 3vw;
+        line-height: 10vw;
+    }
+    .heav-text {
+        text-align: center;
+        font-family: serif;
+        margin-bottom: 17vw;
+        font-size: 15px;
+        margin-top: 13vw;
+        line-height: 9vw;
+    }
+    .source {
+        font-size: 25px;
+        margin-bottom: 12vw;
+    }
+    .two {
+        font-size: 17px;
+        line-height: 7vw;
+        margin-top: 6vw;
+        margin-bottom: 17vw;
+        padding-bottom: 4vw;
+    }
+    dan{
+        content: "/A";
+        margin-top: 1vw;
+        white-space: pre;
+    }
+    
+
+    .c-question__Q {
+        font-size: 29px;
     }
     .preBtn {
         height: 13vw;
