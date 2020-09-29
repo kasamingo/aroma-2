@@ -11187,7 +11187,7 @@ footer {
 }
 .border{
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 .p-2 p{
     font-family: serif;
@@ -11456,8 +11456,12 @@ td {
         right: 8vw;
         float: right;
     }
-    .menu-img{
+    .menuImg2 {
         display: block;
+        margin-top: 10vw;
+        height: 60vw;
+        /* width: 79vw; */
+        background: url(../images/special/menuImg2.png) no-repeat center/contain;
     }
     .p-products__pickup__block .p-products__pickup__inner__info .info__content2 {
         font-size: 22px;
