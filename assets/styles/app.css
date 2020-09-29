@@ -11248,6 +11248,9 @@ td {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+betu{
+    font-size: 2vw;
+}
 .op1,.op2{
     text-align: center;
     margin-top: 4vw;
@@ -11615,6 +11618,9 @@ td {
     .c-article__ttl__en {
         font-size: 17px;
     }
+    .next {
+        font-size: 16px;
+    }
 }
 
 
@@ -11625,6 +11631,9 @@ td {
         color: #ffffff;
         top: -29vw;
         left: 65vw;
+    }
+    betu {
+        font-size: 19px;
     }
     .c-question__thema {
         font-size: 16px;
@@ -11999,7 +12008,7 @@ td {
     }
     .flow-p {
         font-size: 14px;
-        margin-top: 8vw;
+        margin-top: 6vw;
     }
     .plan-img {
         height: 453vw;
