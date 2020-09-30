@@ -10851,6 +10851,21 @@ footer {
 .flow-w{
     margin-bottom: 10vw;
 }
+.ptex {
+    font-size: 1.4vw;
+}
+.privacy-w {
+    margin-left: 16vw;
+    margin-top: 10vw;
+    line-height: 4vw;
+    margin-right: 16vw;
+}
+.pr-head {
+    margin-top: 3vw;
+    margin-left: -2vw;
+    font-size: 1.8vw;
+}
+
 .flowTop2{
     font-size: 2.7vw;
     font-family: serif;
@@ -11301,6 +11316,7 @@ betu{
         position: relative;
         top: -17vh;
     }
+    
     .store-info {
         margin-bottom: 4vw;
     }
@@ -11621,6 +11637,12 @@ betu{
     .next {
         font-size: 16px;
     }
+    .pr-head {
+        margin-top: 6vw;
+        margin-left: -2vw;
+        margin-bottom: 1vw;
+        font-size: 2.3vw;
+    }
 }
 
 
@@ -11632,15 +11654,31 @@ betu{
         top: -29vw;
         left: 65vw;
     }
+    
+    .privacy-w {
+        margin-left: 6vw;
+        margin-right: 6vw;
+        line-height: 7vw;
+    }
+    
     betu {
         font-size: 19px;
     }
     .c-question__thema {
         font-size: 16px;
     }
+    .pr-head {
+        margin-top: 11vw;
+        margin-left: -2vw;
+        margin-bottom: 4vw;
+        font-size: 18px;
+    }
     kemo{
         content: "/A";
         white-space: pre;
+    }
+    .long{
+        font-size: 13px;
     }
     .p-products__lineup__container .c-product__object__content {
         font-size: 16px;
@@ -12039,6 +12077,9 @@ betu{
         font-size: 14px;
     }
     .c-product-description__annotation {
+        font-size: 15px;
+    }
+    .ptex {
         font-size: 15px;
     }
 }
