@@ -120,41 +120,9 @@ a {
     background: transparent
 }
 
-ins {
-    background-color: #ff9;
-    color: #000;
-    text-decoration: none
-}
-
-mark {
-    background-color: #ff9;
-    color: #000;
-    font-style: italic;
-    font-weight: bold
-}
-
-del {
-    text-decoration: line-through
-}
-
-abbr[title],
-dfn[title] {
-    border-bottom: 1px dotted;
-    cursor: help
-}
-
 table {
     border-collapse: collapse;
     border-spacing: 0
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0
 }
 
 input,
@@ -310,19 +278,6 @@ img[src$='.svg'] {
     }
 }
 
-@media screen and (min-width:769px) {
-    .l-publicity__wrap {
-        position: relative;
-        height: 41.727vw;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center
-    }
-}
-
 .l-firstView__wrap {
     -webkit-animation: brightnessIn 1.5s cubic-bezier(.13, .79, .78, .85) forwards;
     animation: brightnessIn 1.5s cubic-bezier(.13, .79, .78, .85) forwards;
@@ -371,11 +326,6 @@ img[src$='.svg'] {
     transition: opacity 2.5s ease;
     opacity: 0
 }
-
-.l-knowOf {
-    background: #000000
-}
-
 .l-article {
     background: white;
 }
@@ -10853,6 +10803,8 @@ footer {
 }
 .ptex {
     font-size: 1.4vw;
+    margin-top: -5vw;
+    margin-bottom: 0vw;
 }
 .utex {
     line-height: 2vw;
@@ -11653,8 +11605,167 @@ betu{
         margin-bottom: 1vw;
         font-size: 2.3vw;
     }
+    .ptex {
+        font-size: 16px;
+        margin-top: -5vw;
+        margin-bottom: 0vw;
+    }
+    .pr-head {
+        margin-bottom: 4vw;
+        font-size: 20px;
+    }
 }
-
+@media screen and (max-width:480px){
+    .p-article__product__cp__desc__name__en {
+        font-size: 20px;
+        letter-spacing: .15em;
+    }
+    .privacy-w {
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+    .pr-head {
+        font-size: 20px;
+    }
+    .ptex {
+        font-size: 15px;
+        margin-top: 0vw;
+        line-height: 6vw;
+        margin-bottom: 0vw;
+    }
+    
+    .p-products__pickup__block .p-products__pickup__inner__info .info__content2 {
+        font-size: 16px;
+    }
+    spna {
+        font-size: 15px;
+        margin-bottom: 2vw;
+    }
+    .mass3 {
+        height: 75vh;
+    }
+    .flow1 {
+        height: 23vw;
+        width: 85%;
+    }
+    .flow2 {
+        height: 23vw;
+        width: 85%;
+    }
+    .flow3 {
+        height: 23vw;
+        width: 85%;
+    }
+    .flow4 {
+        height: 23vw;
+        width: 85%;
+    }
+    .flow5 {
+        height: 23vw;
+        width: 85%;
+    }
+    .flow6 {
+        height: 23vw;
+        width: 85%;
+    }
+    .flow7 {
+        height: 23vw;
+        width: 85%;
+    }
+    .plan-img {
+        height: 313vw;
+    }
+    .next {
+        font-size: 13px;
+    }
+    betu {
+        font-size: 17px;
+    }
+    .c-firstView__page_ttl {
+        font-size: 19px;
+    }
+    .flow-p {
+        font-size: 13px;
+        margin-top: 4vw;
+    }
+    .flowTop {
+        font-size: 15px;
+    }
+    .add h2 {
+        margin-bottom: 11vw;
+        font-size: 38px;
+    }
+    .p-2 p {
+        color: white;
+        font-size: 19px;
+    }
+    .l-commercial .c-article__ttl {
+        font-size: 26px;
+        line-height: 1.346153846153846;
+    }
+    .pre p {
+        font-size: 17px;
+    }
+    .preBtn {
+        height: 13vw;
+        width: 48vw;
+        margin-top: 11vw;
+        padding-top: 4.3vw;
+        font-size: 18px;
+    }
+    .black {
+        margin-bottom: 9vw;
+        font-size: 15px;
+    }
+    .c-question__Q {
+        font-size: 21px;
+    }
+    .store-info {
+        font-size: 25px;
+        margin-top: 5vw;
+        padding: 3vw;
+        margin-bottom: 9vw;
+        width: 43vw;
+    }
+    .heav {
+        font-size: 16px;
+        line-height: 10vw;
+        margin-top: 7vw;
+        margin-bottom: 8vw;
+    }
+    .heav-text {
+        font-size: 16px;
+        line-height: 8vw;
+        margin-bottom: 18vw;
+        margin-top: 12vw;
+    }
+    .one {
+        margin-bottom: 8vw;
+    }
+    .two {
+        padding-bottom: 1vw;
+        margin-bottom: 11vw;
+        font-family: serif;
+        font-size: 17px;
+        border-bottom: 1px solid black;
+    }
+    dan{
+        display: block;
+    }
+    .users-w {
+        margin-left: 6vw;
+        margin-right: 6vw;
+        margin-top: 3vw;
+    }
+    .pr-head {
+        margin-bottom: 3vw;
+        font-size: 18px;
+    }
+    .utex {
+        line-height: 6vw;
+        font-size: 15px;
+    }
+}
 
 @media screen and (max-width:380px) {
     .fa-instagram:before {
@@ -11664,7 +11775,13 @@ betu{
         top: -29vw;
         left: 65vw;
     }
-    
+    .pr-head {
+        font-size: 19px;
+    }
+    .ptex {
+        font-size: 13px;
+        margin-top: -7vw;
+    }
     .privacy-w {
         margin-left: 6vw;
         margin-right: 6vw;
@@ -12090,7 +12207,8 @@ betu{
         font-size: 15px;
     }
     .ptex {
-        font-size: 15px;
+        font-size: 14px;
+        margin-top: -7vw;
     }
     .users-w {
         margin-left: 6vw;
