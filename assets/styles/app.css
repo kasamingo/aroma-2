@@ -10854,6 +10854,11 @@ footer {
 .ptex {
     font-size: 1.4vw;
 }
+.utex {
+    line-height: 2vw;
+    font-size: 1.5vw;
+    /* margin-bottom: 2vw; */
+}
 .privacy-w {
     margin-left: 16vw;
     margin-top: 10vw;
@@ -10861,8 +10866,9 @@ footer {
     margin-right: 16vw;
 }
 .pr-head {
-    margin-top: 3vw;
+    margin-top: 5vw;
     margin-left: -2vw;
+    margin-bottom: 2vw;
     font-size: 1.8vw;
 }
 
@@ -11305,7 +11311,11 @@ betu{
     .kemo{
         display: none;
     }
-
+    .users-w {
+        margin-left: 16vw;
+        margin-right: 16vw;
+        margin-top: 11vw;
+    }
 
 
 
@@ -12081,6 +12091,15 @@ betu{
     }
     .ptex {
         font-size: 15px;
+    }
+    .users-w {
+        margin-left: 6vw;
+        margin-right: 6vw;
+        /* margin-top: 6vw; */
+    }
+    .utex {
+        line-height: 8vw;
+        font-size: 16px;
     }
 }
 /*-------------------------------------------------------------サッカー後に追加したCSS*/
