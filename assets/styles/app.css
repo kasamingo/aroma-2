@@ -564,15 +564,15 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .c-article__banner_area .banner {
         width: 39.82vw;
-        -webkit-box-shadow: .7320644216691069vw .7320644216691069vw 1.464128843338214vw 0 rgba(80, 61, 140, 0.35);
-        box-shadow: .7320644216691069vw .7320644216691069vw 1.464128843338214vw 0 rgba(80, 61, 140, 0.35)
+        /**-webkit-box-shadow: .7320644216691069vw .7320644216691069vw 1.464128843338214vw 0 rgba(80, 61, 140, 0.35);
+        box-shadow: .7320644216691069vw .7320644216691069vw 1.464128843338214vw 0 rgba(80, 61, 140, 0.35)*//
     }
 }
 
 @media screen and (max-width:768px) {
     .c-article__banner_area .banner {
-        -webkit-box-shadow: 1.333333333333333vw 1.333333333333333vw 2.666666666666667vw 0 rgba(80, 61, 140, 0.35);
-        box-shadow: 1.333333333333333vw 1.333333333333333vw 2.666666666666667vw 0 rgba(80, 61, 140, 0.35)
+        /**-webkit-box-shadow: 1.333333333333333vw 1.333333333333333vw 2.666666666666667vw 0 rgba(80, 61, 140, 0.35);
+        box-shadow: 1.333333333333333vw 1.333333333333333vw 2.666666666666667vw 0 rgba(80, 61, 140, 0.35)**/
     }
 }
 
@@ -1494,7 +1494,9 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .c-footer_links .link span {
         padding-top: 2vw;
-        padding-bottom: 1vw
+        padding-bottom: 1vw;
+        font-family: serif;
+        font-weight: 600;
     }
 }
 .fa{
@@ -1785,8 +1787,8 @@ img[src$='.svg'] {
 }
 
 .c-header_block__links .link a {
-    font-family: kozuka-gothic-pr6n, serif;
-    font-weight: 400;
+    font-family: serif;
+    font-weight: 600;
     font-style: normal;
     text-decoration: none;
     color: #fff;
@@ -2509,6 +2511,7 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .c-product-description__description {
         font-size: 1.5vw;
+        font-family: serif;
         line-height: 1.777777777777778;
         letter-spacing: .05em;
         margin-top: 1.09809663250366vw;
@@ -2527,12 +2530,12 @@ img[src$='.svg'] {
 @media screen and (min-width:769px) {
     .c-product-description__annotation {
         font-size: 1.2vw;
+        font-family: serif;
         line-height: 2.285714285714286;
         letter-spacing: .05em;
         margin-top: 3vw;
-    }
 }
-
+}
 @media screen and (max-width:768px) {
     .c-product-description__annotation {
         font-size: 2.933333333333333vw;
@@ -3720,12 +3723,7 @@ img[src$='.svg'] {
     background-color: #ffffff;
 }
 
-@media screen and (min-width:769px) {
-    #PRODUCTS_RECOMMENDED {
-        padding-top: 7.320644216691069vw;
-        padding-bottom: 15vw;
-    }
-}
+
 
 @media screen and (max-width:768px) {
     #PRODUCTS_RECOMMENDED {
@@ -4120,6 +4118,7 @@ img[src$='.svg'] {
         margin-top: 5vw;
         font-size: 2.610542vw;
         line-height: 1.363636363636364;
+        font-family: serif;
         letter-spacing: .05em;
     }
 }
@@ -4135,6 +4134,7 @@ img[src$='.svg'] {
     .p-products__lineup__container .c-product__object__content {
         font-size: 1.5vw;
         padding-top: 2vw;
+        font-family: serif;
         line-height: 1.875;
         letter-spacing: .05em;
     }
@@ -4395,6 +4395,7 @@ img[src$='.svg'] {
         font-size: 1.903367496339678vw;
         line-height: 1.692307692307692;
         margin-top: 2.02489vw;
+        margin-bottom: 1vw;
     }
 }
 
@@ -4412,6 +4413,7 @@ img[src$='.svg'] {
         font-size: 1.317715959004393vw;
         line-height: 1.625;
         margin-bottom: 1vw;
+        font-family: serif;
     }
 }
 
@@ -4751,6 +4753,7 @@ img[src$='.svg'] {
     .p-article__product__cp__desc__txt {
         font-size: 1.9vw;
         line-height: 1.95;
+        font-family: serif;
         margin-top: 1.8vw;
     }
 }
@@ -5206,11 +5209,18 @@ footer {
 .flow-w{
     margin-bottom: 10vw;
 }
+#PRODUCTS_RECOMMENDED {
+    padding-top: 7.320644216691069vw;
+    padding-bottom: 4vw;
+}
 .ptex {
     font-size: 1.4vw;
     margin-top: -5vw;
     line-height: 4vw;
     margin-bottom: 0vw;
+}
+.ren{
+    display: none;
 }
 .utex {
     line-height: 2vw;
@@ -5398,6 +5408,16 @@ spna{
     margin-top: 3vw;
     font-size: 1.7vw;
 }
+.ttop {
+    font-family: serif;
+    font-size: 2.5vw;
+    margin-bottom: 7vw;
+}
+.under {
+    font-family: serif;
+    font-size: 1.8vw;
+    margin-bottom: 2vw;
+}
 
 
 
@@ -5422,11 +5442,6 @@ spna{
 .pre{
     margin-top: 7vw;
     text-align: center;
-}
-.pre p{
-    font-size: 2.4vw;
-    font-family: serif;
-    margin-bottom: 3vw;
 }
 .preBtn {
     display: block;
@@ -5529,7 +5544,7 @@ spna{
 .text2 {
     margin-top: 1vw;
     font-size: 1.2vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 .add h2{
     font-size: 4vw;
@@ -5548,6 +5563,7 @@ spna{
     font-size: 1.5vw;
     line-height: 1.625;
     margin-top: 1.830161054172767vw;
+    font-family: serif;
     margin-bottom: 2vw;
 }
 .mass {
@@ -5573,6 +5589,7 @@ spna{
 }
 .border{
     width: 100%;
+    display: none;
     border: 1px solid white;
 }
 .p-2 p{
@@ -5731,6 +5748,21 @@ betu{
         top: -29vw;
         left: 67vw;
     }
+    .ttop {
+        font-size: 26px;
+        margin-bottom: 13vw;
+    }
+    .under {
+        font-family: serif;
+        font-size: 21px;
+        margin-bottom: 2vw;
+    }
+    .ren{
+        display: block;
+    }
+    .border{
+        display: block;
+    }
     .store-info {
         font-size: 36px;
         margin-top: 5vw;
@@ -5768,9 +5800,6 @@ betu{
     }
     .c-firstView__page_ttl.thema-white {
         color: #fff
-    }
-    .pre p {
-        font-size: 24px;
     }
     
     .preBtn {
@@ -6026,6 +6055,18 @@ betu{
         font-size: 20px;
         letter-spacing: .15em;
     }
+    .ttop {
+        font-size: 15px;
+        margin-bottom: 13vw;
+    }
+    .under {
+        font-family: serif;
+        font-size: 14px;
+        margin-bottom: -4vw;
+    }
+    .flowTop2 {
+        font-size: 15px;
+    }
     .privacy-w {
         margin-left: 6vw;
         margin-right: 6vw;
@@ -6108,9 +6149,6 @@ betu{
     .l-commercial .c-article__ttl {
         font-size: 26px;
         line-height: 1.346153846153846;
-    }
-    .pre p {
-        font-size: 17px;
     }
     .preBtn {
         height: 13vw;
@@ -6246,10 +6284,7 @@ betu{
         height: 32vh;
         background: url(../images/cp/mass.jpg) no-repeat top -179px center/cover;
     }
-    .pre p {
-        font-size: 16px;
-        margin-bottom: 8vw;
-    }
+
     .black {
         margin-bottom: 9vw;
         font-size: 18px;
