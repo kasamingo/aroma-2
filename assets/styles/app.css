@@ -10804,6 +10804,7 @@ footer {
 .ptex {
     font-size: 1.4vw;
     margin-top: -5vw;
+    line-height: 4vw;
     margin-bottom: 0vw;
 }
 .utex {
@@ -11606,13 +11607,13 @@ betu{
         font-size: 2.3vw;
     }
     .ptex {
-        font-size: 16px;
+        font-size: 17px;
         margin-top: -5vw;
         margin-bottom: 0vw;
     }
     .pr-head {
         margin-bottom: 4vw;
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 @media screen and (max-width:480px){
