@@ -883,10 +883,10 @@ img[src$='.svg'] {
         overflow: hidden
     }
     .c-firstView__bg img {
-        width: 105%;
-        height: 54.72vw;
+        width: 100%;
+        height: 65.72vw;
         position: relative;
-        top: -13vh;
+        top: -26vh;
     }
 }
 
