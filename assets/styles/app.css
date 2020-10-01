@@ -5569,8 +5569,8 @@ spna{
 .mass {
     content: "";
     width: 100vw;
-    height: 56vh;
-    background: url(../images/cp/mass.jpg) no-repeat top -646px center/cover;
+    height: 60vh;
+    background: url(../images/cp/mass.jpg) no-repeat top -860px center/cover;
 }
 
 .mass2 {
