@@ -5209,6 +5209,7 @@ footer {
 .flow-w{
     margin-bottom: 10vw;
 }
+
 #PRODUCTS_RECOMMENDED {
     padding-top: 7.320644216691069vw;
     padding-bottom: 4vw;
@@ -5465,9 +5466,7 @@ spna{
 
 
 .yuriko {
-    border-radius: 1vw;
     width: 38vw;
-    box-shadow: 0px 11px 18px -1px #1b1b1b;
     position: relative;
     right: 5vw;
 }
@@ -5740,6 +5739,7 @@ betu{
         margin-top: -15vw;
     }
 }
+
 @media screen and (max-width:780px){
     .fa-instagram:before {
         content: "\f16d";
