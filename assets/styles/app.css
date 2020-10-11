@@ -1499,10 +1499,10 @@ img[src$='.svg'] {
         font-weight: 600;
     }
 }
-.fa{
+.fa {
     margin-top: 2vw;
+    color: white;
 }
-
 .c-footer_links .link span:before {
     opacity: 0;
     -webkit-transition: .4s all ease;
