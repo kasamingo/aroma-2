@@ -5608,7 +5608,7 @@ spna{
     content: "\f16d";
     color: #ffffff;
 }
-.fa-twitter:before {
+.fa-facebook:before {
     content: "\f099";
     color: #ffffff;
 }
@@ -5845,7 +5845,7 @@ betu{
         height: 41vh;
         background: url(../images/cp/mass.jpg) no-repeat top -346px center/cover;
     }
-    .fa-twitter:before {
+    .fa-facebook:before {
         content: "\f099";
         color: #ffffff;
         position: relative;
@@ -5910,7 +5910,7 @@ betu{
         left: 67vw;
         font-size: 10vw;
     }
-    .fa-twitter:before {
+    .fa-facebook:before {
         content: "\f099";
         color: #ffffff;
         position: relative;
@@ -6660,6 +6660,9 @@ betu{
     .utex {
         line-height: 8vw;
         font-size: 16px;
+    }
+    .fa-facebook:before {
+        left: 56vw;
     }
 }
 /*-------------------------------------------------------------サッカー後に追加したCSS*/
