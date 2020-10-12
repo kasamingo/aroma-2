@@ -605,7 +605,8 @@ img[src$='.svg'] {
 @media screen and (max-width:768px) {
     .c-article__banner_area .banner .c-article__banner_area_btn {
         width: 66.66666666666667vw;
-        bottom: 8vw
+        bottom: 8vw;
+        top: 57vw;
     }
 }
 
