@@ -5364,6 +5364,12 @@ spna{
     background-color: silver;
     background: linear-gradient(25deg, #0affd2, #ffffff);
 }
+.flow-h{
+    margin-top: 2vw;
+    font-family: serif;
+    text-align: center;
+    font-size: 1.5vw;
+}
 .flow3{
     height: 13vw;
     width: 70%;
@@ -5384,8 +5390,8 @@ spna{
     BOX-SHADOW: 6px 10px 11px -1px #232323;
     background: linear-gradient(25deg, #0affd2, #ffffff);
 }
-.flow5{
-    height: 13vw;
+.flow5 {
+    height: 17vw;
     width: 70%;
     padding: 2.5vw;
     margin: auto;
@@ -6050,6 +6056,15 @@ betu{
         margin-bottom: 4vw;
         font-size: 22px;
     }
+    .flow-h {
+        font-size: 15px;
+    }
+    .flow5 {
+        height: 20vw;
+    }
+    .p-products__lineup__container .c-product__object__img .c-product__object__img__inner {
+        box-shadow: none;
+    }
 }
 @media screen and (max-width:480px){
     .p-article__product__cp__desc__name__en {
@@ -6113,7 +6128,7 @@ betu{
         width: 85%;
     }
     .flow5 {
-        height: 23vw;
+        height: 35vw;
         width: 85%;
     }
     .flow6 {
@@ -6146,6 +6161,12 @@ betu{
     .add h2 {
         margin-bottom: 11vw;
         font-size: 38px;
+    }
+    .flow-h {
+        margin-top: 4vw;
+        font-family: serif;
+        text-align: center;
+        font-size: 13px;
     }
     .p-2 p {
         color: white;
@@ -6590,7 +6611,7 @@ betu{
         width: 90%;
     }
     .flow5 {
-        height: 35vw;
+        height: 45vw;
         padding: 2.5vw;
         width: 90%;
     }
@@ -6620,6 +6641,9 @@ betu{
     .flow-p {
         font-size: 14px;
         margin-top: 6vw;
+    }
+    .flow-h {
+        font-size: 13px;
     }
     .plan-img {
         height: 453vw;
