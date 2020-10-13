@@ -975,9 +975,9 @@ img[src$='.svg'] {
 
 @media screen and (max-width:768px) {
     .c-firstView__page_hdg {
-        font-size: 8vw;
+        font-size: 7.4vw;
         letter-spacing: .05em;
-        line-height: 1.3
+        line-height: 1.3;
     }
 }
 
@@ -1065,7 +1065,7 @@ img[src$='.svg'] {
 
 @media screen and (min-width:769px) {
     .c-firstView__page_hdg__desc {
-        font-size: 2.3vw;
+        font-size: 1.8vw;
         letter-spacing: .05em;
         line-height: 1.777777777777778;
     }
@@ -5585,7 +5585,7 @@ spna{
     content: "";
     width: 100vw;
     height: 56vh;
-    background: url(../images/cp/top-mass3.jpg) no-repeat top -325px center/cover;
+    background: url(../images/mass1.jpg) no-repeat top -325px center/cover;
 }
 .border{
     width: 100%;
@@ -6090,7 +6090,11 @@ betu{
         margin-bottom: 2vw;
     }
     .mass3 {
+        margin-top: 14vw;
+        content: "";
+        width: 100vw;
         height: 75vh;
+        background: url(../images/cp/top-mass3.jpg) no-repeat top -44px center/contain;
     }
     .flow1 {
         height: 23vw;
