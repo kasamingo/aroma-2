@@ -5232,8 +5232,8 @@ footer {
     display: none;
 }
 .utex {
-    line-height: 2vw;
-    font-size: 1.5vw;
+    line-height: 3vw;
+    font-size: 1.9vw;
     /* margin-bottom: 2vw; */
 }
 .privacy-w {
@@ -5862,7 +5862,8 @@ betu{
         color: #ffffff;
         position: relative;
         top: -8vw;
-        left: 61vw;
+        font-size: 10vw;
+        left: 59vw;
     }
     .c-article__banner_area {
         display: block;
@@ -6065,6 +6066,82 @@ betu{
         box-shadow: none;
     }
 }
+
+
+@media screen and (max-width:550px){
+    .mass3 {
+        margin-top: 33vw;
+        height: 84vh;
+    }
+    .p-application__concent__btn {
+        margin-top: 16vw;
+    }
+    .flow1 {
+        height: 20vw;
+    }
+    .flow2 {
+        height: 20vw;
+    }
+    .flow3 {
+        height: 20vw;
+    }
+    .flow4 {
+        height: 20vw;
+    }
+    .flow5 {
+        height: 30vw;
+    }
+    .flow6 {
+        height: 20vw;
+    }
+    .flow7 {
+        height: 20vw;
+    }
+    .flowTop {
+        margin-bottom: 4vw;
+    }
+    .plan-img {
+        height: 265vw;
+    }
+    betu {
+        font-size: 22px;
+    }
+    .preBtn {
+        height: 12vw;
+        width: 45vw;
+        padding-top: 4.3vw;
+        font-size: 20px;
+        margin-top: 9vw;
+    }
+    .store-info {
+        padding-left: 3vw;
+        width: 36vw;
+    }
+    .heav {
+        line-height: 9vw;
+    }
+    .heav-text {
+        font-size: 11px;
+        margin-bottom: 15vw;
+    }
+    .utex {
+        line-height: 3.2vw;
+        font-size: 13px;
+    }
+    .pr-head {
+        margin-bottom: 4vw;
+        font-size: 18px;
+    }
+    .two {
+        font-size: 18px;
+        line-height: 7vw;
+    }
+    
+}
+
+
+
+
 @media screen and (max-width:480px){
     .p-article__product__cp__desc__name__en {
         font-size: 20px;
@@ -6110,8 +6187,11 @@ betu{
         margin-top: 25vw;
         content: "";
         width: 100vw;
-        height: 75vh;
+        height: 56vh;
         background: url(../images/cp/top-mass3.jpg) no-repeat top -44px center/contain;
+    }
+    .source {
+        font-size: 26px;
     }
     .flow1 {
         height: 23vw;
@@ -6687,6 +6767,24 @@ betu{
     .fa-facebook:before {
         left: 56vw;
         font-size: 10vw;
+    }
+}
+
+@media screen and (max-width:330px){
+    .flow5 {
+        height: 58vw;
+    }
+    .flowTop {
+        font-size: 15px;
+    }
+    .source {
+        font-size: 21px;
+    }
+    .two {
+        font-size: 16px;
+    }
+    .utex {
+        font-size: 14px;
     }
 }
 /*-------------------------------------------------------------サッカー後に追加したCSS*/
